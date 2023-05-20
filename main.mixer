@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!243 &-4523068428824442273
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: player grunts
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 898d4abdae2903846957bbfea61d2907
+  m_Children: []
+  m_Volume: e3a3238398fade148af2f6049fef9edf
+  m_Pitch: 4e265569555637f4ab84fc445538523a
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -3807523928170580401}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &-3807523928170580401
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: c716dbc5aae41d1418645d037758f39a
+  m_EffectName: Attenuation
+  m_MixLevel: 3a96ab37f6849684a8ecfefba1275e7e
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &-785877626842735096
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: cc23583d548260c4aa78f0730a589735
+  m_EffectName: Attenuation
+  m_MixLevel: ec4335f04f11f994a8347f6103f67609
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: main
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 4609be95ed065f44fbab235e7f492520
+    - 344a5b431c734684bbed558ea134b74e
+    - 898d4abdae2903846957bbfea61d2907
+    - 2e4b84a56abb90945bbf593071b3609f
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 4609be95ed065f44fbab235e7f492520
+  m_Children:
+  - {fileID: 450952699409091163}
+  - {fileID: -4523068428824442273}
+  - {fileID: 5822239838037075776}
+  m_Volume: bb26cbd522a0be14d9f3f456f433584d
+  m_Pitch: 8e755269710f08f43902cf90dc63c42f
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 9bc8fd77fbad2c847b3013849bb1d170
+  m_EffectName: Attenuation
+  m_MixLevel: 973ecacb2c95a24489d6ff4fc2482371
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: bd2cab481cc29ac49b300f90c7473e91
+  m_FloatValues:
+    8bb726c004dba26498759e6a6d033415: 0.04171297
+  m_TransitionOverrides: {}
+--- !u!243 &450952699409091163
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: guns
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 344a5b431c734684bbed558ea134b74e
+  m_Children: []
+  m_Volume: 8bb726c004dba26498759e6a6d033415
+  m_Pitch: 99052195fd1b9cd44a9769f1bf16114e
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 7931627383196331377}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &5822239838037075776
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: zombie grunts
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 2e4b84a56abb90945bbf593071b3609f
+  m_Children: []
+  m_Volume: db09f3d3e3c438b4e9c418c0383d28ca
+  m_Pitch: 51ef0cacd7e11424ea432f11486813c8
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -785877626842735096}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &7931627383196331377
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 754b2899cd3458646a9bd4122e6ca8fa
+  m_EffectName: Attenuation
+  m_MixLevel: f3cb41ed25a293943932e6b11c5a454e
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
